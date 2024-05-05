@@ -3,6 +3,7 @@
 /* Min Width 1200px and Max Width 1399px */
 @media (min-width: 1200px) and (max-width: 1399px) {
   .hero-wrapper,
+  .non-members-wrapper,
   .courses-hero-wrapper {
     padding: 100px 0 250px;
   }
@@ -11,6 +12,7 @@
 /* Min Width 992px and Max Width 1199px */
 @media (min-width: 992px) and (max-width: 1199px) {
   .hero-wrapper,
+  .non-members-wrapper,
   .courses-hero-wrapper {
     padding: 100px 0 250px;
   }
@@ -25,6 +27,7 @@
     padding: 0 15px;
   }
 
+  .non-members-content h2,
   .courses-hero-content h2 {
     font-size: 64px;
   }
@@ -33,6 +36,7 @@
 /* Min Width 768px and Max Width 991px */
 @media (min-width: 768px) and (max-width: 991px) {
   .hero-wrapper,
+  .non-members-wrapper,
   .courses-hero-wrapper {
     padding: 100px 0 250px;
   }
@@ -42,6 +46,7 @@
   }
 
   .hero-content h2,
+  .non-members-content h2,
   .why-top h2,
   .services-top h2 {
     font-size: 48px;
@@ -65,6 +70,7 @@
     padding: 0 15px;
   }
 
+  .non-members-content h2,
   .courses-hero-content h2 {
     font-size: 48px;
     line-height: 60px;
@@ -73,11 +79,18 @@
   .courses-features-wrapper {
     top: -200px;
   }
+
+  .events-search-wrapper{
+    top: -100px;
+  }
+
+
 }
 
 /* Min Width 300px and Max Width 767px */
 @media (min-width: 300px) and (max-width: 767px) {
   .hero-wrapper,
+  .non-members-wrapper,
   .courses-hero-wrapper {
     padding: 100px 0 200px;
   }
@@ -138,15 +151,18 @@
     font-size: 16px;
   }
 
+  .non-members-content h2,
   .courses-hero-content h2 {
     font-size: 36px;
     line-height: 50px;
   }
 
+  .non-members-content p,
   .courses-hero-content p {
     font-size: 16px;
   }
 
+  .events-search-wrapper,
   .courses-features-wrapper {
     position: relative;
     top: -150px;

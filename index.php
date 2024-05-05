@@ -124,7 +124,7 @@ require_once("header.php");
             <!-- Member Card -->
             <div class="services-cards">
               <div class="services-card">
-                <a href="#"><div class="services-card-img">
+                <a href="non-members.php"><div class="services-card-img">
                   <img
                     src="assets/images/services-img1.png"
                     alt="services-img1"

@@ -866,3 +866,79 @@ Courses Page CSS
 }
 
 /* Current Course Section CSS End */
+
+/* ==========***==========
+Non Members Page CSS
+==========***========== */
+
+/* Non Members Section CSS Start */
+
+.hero-non-members-wrapper{
+  background: url(../images/membership-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 150px 0 300px;
+}
+
+.hero-non-members-content h2{
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-non-members-content p{
+  font-size: 18px;
+  color: #fff;
+}
+
+.events-search-wrapper{
+  position: relative;
+  top: -80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-position: center 20px;
+  background-color: #010851;
+  border-radius: 10px;
+
+}
+
+.events-search-wrapper h6 {
+  position: relative;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  padding-bottom: 9;
+  color: #fff;
+}
+
+
+.events-search-wrapper h6::after {
+  content: "";
+  position: absolute;
+  left: 0; /* Adjust the distance from the left edge */
+  bottom: -42px; /* Adjust the distance from the bottom edge */
+  width: 100%; /* Take the full width of the input */
+  height: 2px; /* Adjust the thickness of the line */
+  background: #7778B0; /* Adjust the color */
+}
+
+.events-search-wrapper input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.events-search-wrapper input::placeholder {
+  color: #fff; /* Change placeholder color to gray (#999), adjust as needed */
+}
+
+.events-search-wrapper input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
